@@ -15,18 +15,16 @@ const { borrar, listaImg } = store;
   <div>
     <img src="../assets/arcilla.jpg" class="img" />
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laudantium cum pariatur. Minima, officiis. Voluptatibus vel blanditiis aliquid ea! Excepturi laudantium adipisci ea officiis aperiam aliquam magnam nulla commodi totam.
-      Obcaecati dolorem vero consequuntur nulla voluptate blanditiis magnam, reprehenderit iusto sed assumenda odio veritatis laudantium sapiente provident quia, nesciunt eaque. Velit aut facilis praesentium odio itaque numquam ut vel minus.
-  </p>
+      
+    </p>
     <button class="btn btn-warning m-2">Información</button>
   </div>
   
   <div>
     <img src="../assets/grama.jpg" class="img" />
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laudantium cum pariatur. Minima, officiis. Voluptatibus vel blanditiis aliquid ea! Excepturi laudantium adipisci ea officiis aperiam aliquam magnam nulla commodi totam.
-      Obcaecati dolorem vero consequuntur nulla voluptate blanditiis magnam, reprehenderit iusto sed assumenda odio veritatis laudantium sapiente provident quia, nesciunt eaque. Velit aut facilis praesentium odio itaque numquam ut vel minus.
-  </p>
+
+    </p>
     <button class="btn btn-warning m-2">Información</button>
   </div>
 
@@ -35,9 +33,7 @@ const { borrar, listaImg } = store;
   <div>
     <img src="../assets/arcilla.jpg" class="img" />
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laudantium cum pariatur. Minima, officiis. Voluptatibus vel blanditiis aliquid ea! Excepturi laudantium adipisci ea officiis aperiam aliquam magnam nulla commodi totam.
-      Obcaecati dolorem vero consequuntur nulla voluptate blanditiis magnam, reprehenderit iusto sed assumenda odio veritatis laudantium sapiente provident quia, nesciunt eaque. Velit aut facilis praesentium odio itaque numquam ut vel minus.
-  </p>
+    </p>
     <button class="btn btn-warning m-2">Información</button>
   </div>
 
