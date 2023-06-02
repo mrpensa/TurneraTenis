@@ -13,23 +13,34 @@ async function run() {
     try {
         await client.connect();
         console.log("Successfully connected to Atlas");
-    } catch (err) {
-        console.log(err.stack);
-    }
-    finally {
-        await client.close();
-    }
-}
-run().catch(console.dir);
 
+
+        app.use(cors());
+        app.use(bodyParser.json());
+            
+        app.listen(port, () => {
+        console.log(`Test app listening at http://localhost:${port}`)
+        })
+    
+
+      } catch (err) {
+        console.log(err.stack);
+      }
+      finally {
+        await client.close();
+      }
+    }
+run().catch(console.dir);
+    
 app.use(cors());
 app.use(bodyParser.json());
-
+    
 app.listen(port, () => {
-  console.log(`Test app listening at http://localhost:${port}`)
+console.log(`Test app listening at http://localhost:${port}`)
 })
+    
 
-
+/*
 // Obtener todas las canchas"
 app.get("/", async (request, response) => {
   try {
@@ -160,3 +171,4 @@ app.delete("/todos/:id", (request, response) => {
   }
   response.status(404).json({ msg: "Todo not found" });
 });
+*/
