@@ -17,12 +17,7 @@ export const useCounterStore = defineStore("counter", {
         { nombre: "P1", comision: "A" },
         { nombre: "Matemática", comision: "B" },
       ],
-      listaImg: 
-      [
-        {route: '../assets/arcilla.jpg', description: 'arcilla'},
-        {route: '../img/cemento.jpg', description: 'cemento'},
-        {route: '../img/grama.jpg', description: 'grama'},
-      ],
+      horas:[],
     };
   },
   // methods en un componente... son las funciones.
@@ -43,6 +38,17 @@ export const useCounterStore = defineStore("counter", {
       if(this.count > 0){
         this.count--;
       }
+    },
+    horariosDisponibles(){
+      //Vacío nuevamente el array al consultar un nuevo día 
+      //this.horas = [];
+
+      //Genero nuevas horas de disponibilidad 
+      
+      for (let i = 0; i < 10; i++) {
+        this.horas.push(Math.floor(Math.random() * 11) + 12);
+      }
+      console.log(this.horas);
     },
     agregar(materia) {
       // mediante axios.post("url/cars, materia")... then... 

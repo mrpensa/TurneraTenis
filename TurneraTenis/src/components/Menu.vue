@@ -44,30 +44,6 @@ defineProps({
             >Booking <span class="sr-only">(current)</span></RouterLink
           >
         </li>
-        <li class="nav-item" v-if="userName != ''">
-          <RouterLink class="nav-link" to="/about"
-            >Otros <span class="sr-only">(current)</span></RouterLink
-          >
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Opciones
-          </a>
-          <div class="dropdown-menu">
-            <RouterLink to="/users" class="dropdown-item" href="#"
-              >Usuarios</RouterLink
-            >
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
       </ul>
       <div class="d-flex align-items-center my-2 my-lg-0">
         <h2 v-if="userName != ''" class="pr-4">{{ userName }}</h2>

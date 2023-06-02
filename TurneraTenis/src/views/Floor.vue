@@ -33,7 +33,7 @@ const { borrar, listaImg } = store;
   <h2>Belgrano</h2>
 
   <div>
-    <img src="../assets/arcilla.jpg" class="img" />
+    <img src="../assets/cemento.jpg" class="img" />
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laudantium cum pariatur. Minima, officiis. Voluptatibus vel blanditiis aliquid ea! Excepturi laudantium adipisci ea officiis aperiam aliquam magnam nulla commodi totam.
       Obcaecati dolorem vero consequuntur nulla voluptate blanditiis magnam, reprehenderit iusto sed assumenda odio veritatis laudantium sapiente provident quia, nesciunt eaque. Velit aut facilis praesentium odio itaque numquam ut vel minus.

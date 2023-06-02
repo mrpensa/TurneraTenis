@@ -1,4 +1,5 @@
-<script>
+<script >
+import axios from "axios";
 import { storeToRefs } from "pinia";
 import { useCounterStore } from "../stores/counter";
 
@@ -22,7 +23,7 @@ export default {
   methods: {
     loguear: (user, vue) => {
       let respuesta = axios
-        .post("http://localhost:3001/login", user)
+        .post("http://localhost:3002/login", user)
         .then(function (response) {
           vue.userName = response.data.nombre;
           vue.$router.push("/");
